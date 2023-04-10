@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Firanka</title>
+    <link rel="stylesheet" href="shtory.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="shtory.html">
+                <img class="logo_png" src="C:\Users\Victoria\Desktop\vlada\images\logo_firanka.png" alt="firanka_logo">
+            </a>
+            <nav>
+                <div class = 'nav_1'>
+                <a href="katalog.html">Каталог</a>
+                <a href="novyny.html">Новини</a>
+                <a href="portfolio.html">Портфоліо</a>
+                <a href="vidhyky.html">Відгуки</a>
+                </div>
+
+  
+                <img class = 'icon_n' src = 'C:\Users\Victoria\Desktop\vlada\images\phone_icon_128782 1.jpg' alt="phone">
+                <p class = 'number'> 095 131 50 95</p>
+                <img class = 'icon' src = 'C:\Users\Victoria\Desktop\vlada\images\telegram.jpg' alt="telegram">
+                <img class = 'icon' src = 'C:\Users\Victoria\Desktop\vlada\images\instagram.jpg' alt="instagram">
+                <img class = 'icon' src = 'C:\Users\Victoria\Desktop\vlada\images\facebook.jpg' alt="facebook">
+                
+
+                <img class = 'icon_png' src = 'C:\Users\Victoria\Desktop\vlada\images\cart.png' alt = 'cart'>
+            </nav>
+        </header>
+    <div>
+        <section id="hero-msg">
+            <h1 class="home-title">ШТОРИ НА ВАШ СМАК</h1>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h4>
+            <div class='button-box'>
+                <a class='book' href="katalog.html">ОБРАТИ</a>
+            </div>
+        </section>
+    </div>
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="C:\Users\Victoria\Desktop\vlada\images\193967210.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="C:\Users\Victoria\Desktop\vlada\images\1637771878315881.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="C:\Users\Victoria\Desktop\vlada\images\196508835.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <script>let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }</script>
+</body>

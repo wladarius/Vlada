@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;300;500;600;700&family=Roboto:wght@100&display=swap');
+@import 'C:\Users\Victoria\Desktop\vlada\stylesheet.css';
+
+header{
+    position: absolute;
+    width: 1920px;
+    height: 52px;
+    left: calc(50% - 1920px/2 - 13px);
+    top: 33px;
+
+    background: rgba( 255, 255, 255, 0,6);
+    backdrop-filter: blur(11px);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 33px;
+ 
+
+    position: absolute;
+    width: 1228px;
+    height:53px;
+    left: 528px;
+    top: 0px;
+    background-color: #FFFF;
+
+}
+
+.logo_png{
+    position: absolute;
+    left: 200px;
+
+    
+    top: 0%;
+    bottom:0%;
+    width: 100px
+}
+.icon_png{
+    width: 30px;
+}
+
+.nav_1 a{
+    font-family: Montserrat;
+    text-decoration: none;
+    color: #778CA3;
+    padding-left: 50px;
+}
+
+
+
+.number{
+    font-family: Montserrat;
+    text-decoration: none;
+    color: #778CA3;
+   
+    
+}
+
+.phone_n{
+    position:absolute;
+    padding-left: 100px;
+    right:24.1%;
+    top: 32.08%;
+    bottom: 33.96%;
+ 
+}
+
+
+
+.icon_n {
+    padding-left: 100px;
+    padding-right: 0px;
+    gap: 0;
+}
+
+.icon_png {
+    padding-left: 150px;
+}
+
+.icon{
+    gap: 5px;
+}
+
+#background{
+    color: #FFFF;
+}
+
+.home-title {
+
+   font-family: Futura PT;
+   color: #403A3E ;
+   margin-top: 300px;
+   font-size: 87px;
+   line-height: 112.82px;
+   font-weight: 10px;
+   text-transform: uppercase;
+   font-style: normal;
+
+   width: 477px;
+   height: 226px;
+}
+
+#hero-msg h1, #hero-msg h4{
+    margin-left: 400px;
+
+}
+
+.button-box{
+    margin-left: 400px;  
+}
+
+#hero-msg h4{
+    font-family: monserrat;
+    color: #778CA3;
+    
+   width: 477px;
+   height: 226px;
+}
+
+.button-box{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+
+    width: 180px;
+    height: 50px;
+
+    background: #6A4D67;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.book{
+    padding-left: 50px;
+    margin-top: 15px;
+    color: #FFFF;
+    font-family: Montserrat;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 1000px;
+  height: 700px;
+  position: relative;
+  margin-left: 1100px;
+  margin-top: -600px;
+  border-radius: 20px 0px 0px 20px;
+ 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+ 
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 20 0px 0px 20;
+  user-select: none;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
