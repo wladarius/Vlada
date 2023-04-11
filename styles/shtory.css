@@ -241,6 +241,10 @@ nav {
   border-radius: 15%;
 }
 
+element.style{
+  left: 1600px;
+}
+
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
