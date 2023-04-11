@@ -235,6 +235,12 @@ nav {
   animation-duration: 1.5s;
 }
 
+.m{
+  width: 850px;
+  height: 650px;
+  border-radius: 15%;
+}
+
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
