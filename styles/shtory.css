@@ -284,28 +284,3 @@ element.style{
 }
 
 
-
-
-
-
-/* Media queries for responsive design */
-@media screen and (min-width: 768px) {
-  header {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .logo {
-    font-size: 36px;
-  }
-
-  nav {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  nav a {
-    padding: 10px 20px;
-    font-size: 24px;
-  }
-}
