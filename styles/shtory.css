@@ -117,7 +117,8 @@ nav a:hover {
 }
 
 #hero-msg h1, #hero-msg h4{
-    margin-left: 555px;
+    
+    margin-left: 670px;
     margin-top: 256px;
 
 }
@@ -155,7 +156,7 @@ nav a:hover {
     background: #6A4D67;
     border-radius: 50px;
     text-align: center;
-    margin-left: 550px;
+    margin-left: 670px;
     margin-top: -35px;
 
 }
@@ -181,7 +182,7 @@ nav a:hover {
   width: 941px;
   height: 787px;
   position: relative;
-  margin-left: 1170px;
+  margin-left: 1280px;
   margin-top: -550px;
   border-radius: 20px 0px 0px 20px;
  
@@ -281,3 +282,7 @@ element.style{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
+
+
