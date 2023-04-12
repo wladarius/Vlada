@@ -55,7 +55,11 @@ nav {
 
 }
 
+nav a:hover {
+  font-family: montserrat;
+  color: #6a4d67;
 
+}
 
 .number{
     font-family: Montserrat;
@@ -153,6 +157,7 @@ nav {
     text-align: center;
     margin-left: 550px;
     margin-top: -35px;
+
 }
 
 .book{
@@ -165,7 +170,11 @@ nav {
 
 }
 
+.button-box:hover{
+  box-shadow: 0 0 10px rgba(147, 100, 142, 0.58);
+  border-radius: 50px;
 
+}
 
 /* Slideshow container */
 .slideshow-container {
