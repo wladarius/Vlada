@@ -23,30 +23,36 @@ nav {
     position: absolute;
     width: 1228px;
     height:53px;
-    left: 528px;
+    left: 515px;
+    right: 500px;
     top: 0px;
     background-color: #FFFF;
+
 
 }
 
 .logo_png{
     position: absolute;
-    left: 200px;
+    left: 371px;
 
     
     top: 0%;
     bottom:0%;
     width: 100px
 }
+
 .icon_png{
-    width: 30px;
+  margin-left: 18px;
 }
 
 .nav_1 a{
     font-family: Montserrat;
     text-decoration: none;
     color: #778CA3;
-    padding-left: 50px;
+    padding-left: 34px;
+    padding-right: 0px;
+
+
 }
 
 
@@ -55,13 +61,15 @@ nav {
     font-family: Montserrat;
     text-decoration: none;
     color: #778CA3;
+    margin-left: -25px;
+  }
    
     
-}
+
 
 .phone_n{
     position:absolute;
-    padding-left: 100px;
+    padding-left: 600px;
     right:24.1%;
     top: 32.08%;
     bottom: 33.96%;
@@ -71,17 +79,17 @@ nav {
 
 
 .icon_n {
-    padding-left: 100px;
+    padding-left: 275px;
     padding-right: 0px;
     gap: 0;
 }
 
-.icon_png {
-    padding-left: 150px;
-}
+
 
 .icon{
     gap: 5px;
+    margin-left: 1px;
+    margin-right: -13px;
 }
 
 #background{
@@ -95,7 +103,8 @@ nav {
    margin-top: 300px;
    font-size: 87px;
    line-height: 112.82px;
-   font-weight: 10px;
+   font-weight: 300;
+  
    text-transform: uppercase;
    font-style: normal;
 
@@ -104,8 +113,13 @@ nav {
 }
 
 #hero-msg h1, #hero-msg h4{
-    margin-left: 400px;
+    margin-left: 555px;
+    margin-top: 256px;
 
+}
+
+#hero-msg h4{
+  margin-top: -60px;
 }
 
 .button-box{
@@ -113,11 +127,15 @@ nav {
 }
 
 #hero-msg h4{
-    font-family: monserrat;
+    font-family: montserrat;
     color: #778CA3;
     
    width: 477px;
-   height: 226px;
+   height: 85px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 18px;
 }
 
 .button-box{
@@ -133,10 +151,12 @@ nav {
     background: #6A4D67;
     border-radius: 50px;
     text-align: center;
+    margin-left: 550px;
+    margin-top: -35px;
 }
 
 .book{
-    padding-left: 50px;
+    padding-left: 60px;
     margin-top: 15px;
     color: #FFFF;
     font-family: Montserrat;
@@ -149,11 +169,11 @@ nav {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 850px;
-  height: 650px;
+  width: 941px;
+  height: 787px;
   position: relative;
-  margin-left: 1100px;
-  margin-top: -600px;
+  margin-left: 1170px;
+  margin-top: -550px;
   border-radius: 20px 0px 0px 20px;
  
 }
@@ -216,14 +236,14 @@ nav {
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  margin-top: 10px;
+  margin-top: 28px;
 
 }
 
@@ -238,9 +258,9 @@ nav {
 }
 
 .m{
-  width: 850px;
-  height: 650px;
-  border-radius: 20px;
+  width: 941px;
+  height: 787px;
+  border-radius: 20px 0 0 20px;
 }
 
 element.style{
