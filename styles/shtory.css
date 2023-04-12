@@ -286,3 +286,48 @@ element.style{
 
 
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 28px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Media queries for responsive design */
+@media screen and (min-width: 768px) {
+  header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 36px;
+  }
+
+  nav {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav a {
+    padding: 10px 20px;
+    font-size: 24px;
+  }
+}
