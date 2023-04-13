@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;300;500;600;700&family=Roboto:wght@100&display=swap');
-@import 'vlada\stylesheet.css';
+@import 'C:\Users\Victoria\Desktop\vlada\stylesheet.css';
 
 header{
     margin: 0 auto;
@@ -292,24 +292,6 @@ element.style{
 }
 
 
-.two{
-  position: absolute;
-  width: 2540px;
-  height: 767px;
-  left:0px;
-  top: 1017px;
-
-  background-color: rgba(223, 228, 234, 0.21);
-
-}
-.tkanyna_1{
-  position:absolute;
-  width: 1450px;
-  height: 1250px;
-  left: -143px;
-  top: -500px;
-
-  /*transform: matrix(0.68, -0.74, -0.74, -0.68, 0, 0);*/
 
 
 }
