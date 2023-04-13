@@ -2,11 +2,13 @@
 @import 'vlada\stylesheet.css';
 
 header{
-    position: absolute;
-    width: 1920px;
-    height: 52px;
+    margin: 0 auto;
+    max-width: 1920px;
+    margin-top: 30px;
+    height: 1px;
     left: calc(50% - 1920px/2 - 13px);
-    top: 33px;
+    top: 40px;
+    
 
     background: rgba( 255, 255, 255, 0,6);
     backdrop-filter: blur(11px);
@@ -29,6 +31,10 @@ nav {
     background-color: #FFFF;
 
 
+}
+
+.one{
+  margin: top 10px;
 }
 
 .logo_png{
@@ -104,7 +110,7 @@ nav a:hover {
 
    font-family: Futura PT;
    color: #403A3E ;
-   margin-top: 300px;
+   margin-top: 250px;
    font-size: 87px;
    line-height: 112.82px;
    font-weight: 300;
@@ -119,13 +125,15 @@ nav a:hover {
 #hero-msg h1, #hero-msg h4{
     
     margin-left: 670px;
-    margin-top: 256px;
+    margin-top: 255px;
 
 }
 
 #hero-msg h4{ 
   margin-top: -60px;
 }
+
+
 
 .button-box{
     margin-left: 400px;  
@@ -183,7 +191,7 @@ nav a:hover {
   height: 787px;
   position: relative;
   margin-left: 1280px;
-  margin-top: -550px;
+  margin-top: -580px;
   border-radius: 20px 0px 0px 20px;
  
 }
@@ -284,5 +292,42 @@ element.style{
 }
 
 
+.two{
+  position: absolute;
+  width: 2540px;
+  height: 767px;
+  left:0px;
+  top: 1017px;
+
+  background-color: rgba(223, 228, 234, 0.21);
+
+}
+.tkanyna_1{
+  position:absolute;
+  width: 1450px;
+  height: 1250px;
+  left: -143px;
+  top: -500px;
+
+  /*transform: matrix(0.68, -0.74, -0.74, -0.68, 0, 0);*/
 
 
+}
+
+.section_2_text{
+  
+  width: 246px;
+  margin-left: 460;
+
+  
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 40px;
+  line-height: 51px;
+  text-align: center;
+  margin-left: 670px;
+
+  color: #403A3E;
+
+}
