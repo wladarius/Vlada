@@ -329,14 +329,16 @@ element.style{
 }
 
 .two{
-  width: 2530px;
-  height: 767px;
+ /* width: 2530px;
+  height: 767px;*/
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
 }
 
-.block {
+
+.card1 {
   width: 374px;
   height: 194px;
   line-height: 1.5em;
@@ -345,9 +347,88 @@ element.style{
   grid-column: 2;
   grid-row: 1;
   border-radius: 20px;
-  margin-top: 250px;
+  margin-top: 260px;
   margin-left: -250px;
 
+
+  
+
+
+  box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
+}
+
+
+.card2{
+  width: 374px;
+  height: 194px;
+  line-height: 1.5em;
+  background-color: #FFFF;
+  padding: 35px;
+  grid-column: 2;
+  grid-row: 1;
+  border-radius: 20px;
+  margin-top: -260px;
+  margin-left: 250px;
+
+  box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
+}
+
+.card3{
+  width: 374px;
+  height: 194px;
+  line-height: 1.5em;
+  background-color: #FFFF;
+  padding: 35px;
+  grid-column: 3;
+  grid-row: 1;
+  border-radius: 20px;
+  margin-top: -260px;
+  margin-left: 750px;
+
+  box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
+}
+
+.card4{
+  width: 374px;
+  height: 194px;
+  line-height: 1.5em;
+  background-color: #FFFF;
+  padding: 35px;
+  grid-column: 3;
+  grid-row: 1;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 750px;
+
+  box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
+}
+
+.card5{
+  width: 374px;
+  height: 194px;
+  line-height: 1.5em;
+  background-color: #FFFF;
+  padding: 35px;
+  grid-column: 3;
+  grid-row: 1;
+  border-radius: 20px;
+  margin-top: -270px;
+  margin-left: 250px;
+
+  box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
+}
+
+.card6{
+  width: 374px;
+  height: 194px;
+  line-height: 1.5em;
+  background-color: #FFFF;
+  padding: 35px;
+  grid-column: 3;
+  grid-row: 1;
+  border-radius: 20px;
+  margin-top: -270px;
+  margin-left: -250px;
 
   box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
 }
