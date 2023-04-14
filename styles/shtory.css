@@ -432,3 +432,12 @@ element.style{
 
   box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
 }
+
+.pic{
+  height: 86px;
+  width: 100px;
+  margin-left: 140px;
+  margin-top: 20px;
+  border-radius: 0px;
+
+}
