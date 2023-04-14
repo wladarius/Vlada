@@ -313,6 +313,8 @@ element.style{
   line-height: 51px;
   text-align: center;
   margin-left: 670px;
+  position: absolute;
+  top: 1050px;
 
   color: #403A3E;
 
