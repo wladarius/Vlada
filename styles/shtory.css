@@ -1,62 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;300;500;600;700&family=Roboto:wght@100&display=swap');
 @import 'vlada/stylesheet.css';
 
-header{
-    margin: 0 auto;
-    max-width: 1920px;
-    margin-top: 30px;
-    height: 1px;
-    left: calc(50% - 1920px/2 - 13px);
-    top: 40px;
-    
+header {
+  margin: 0 auto;
+  max-width: 1920px;
+  margin-top: 30px;
+  height: 1px;
+  left: calc(50% - 1920px/2 - 13px);
+  top: 40px;
 
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(11px);
+
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(11px);
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 33px;
- 
+  /* display: flex; */
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 33px;
 
-    position: absolute;
-    width: 1232px;
-    height:53px;
-    left: 565;
 
-    top: 0px;
-    background-color: #FFFF;
+  /* position: absolute; */
+  width: 1232px;
+  height: 53px;
+  left: 565;
+
+  top: 0px;
+  background-color: #FFFF;
 
 
 }
 
-.one{
+.one {
   margin-top: 10px;
 }
 
-.logo_png{
-    position: absolute;
-    left: 371px;
+.logo_png {
+  /* position: absolute; */
+  left: 371px;
 
-    
-    top: 0%;
-    bottom:0%;
-    width: 100px;
+
+  top: 0%;
+  bottom: 0%;
+  width: 100px;
 }
 
-.icon_png{
+.icon_png {
   margin-left: 18px;
 }
 
-.nav_1 a{
-    font-family: Montserrat;
-    text-decoration: none;
-    color: #778CA3;
-    padding-left: 34px;
-    padding-right: 0px;
+.nav_1 a {
+  font-family: Montserrat;
+  text-decoration: none;
+  color: #778CA3;
+  padding-left: 34px;
+  padding-right: 0px;
 
 
 }
@@ -67,119 +67,120 @@ nav a:hover {
 
 }
 
-.number{
-    font-family: Montserrat;
-    text-decoration: none;
-    color: #778CA3;
-    margin-left: -25px;
-  }
-   
-    
+.number {
+  font-family: Montserrat;
+  text-decoration: none;
+  color: #778CA3;
+  margin-left: -25px;
+}
 
 
-.phone_n{
-    position:absolute;
-    padding-left: 0;
-    right:24.1%;
-    top: 32.08%;
-    bottom: 33.96%;
- 
+
+
+.phone_n {
+  position: absolute;
+  padding-left: 0;
+  right: 24.1%;
+  top: 32.08%;
+  bottom: 33.96%;
+
 }
 
 
 
 .icon_n {
-    padding-left: 275px;
-    padding-right: 0px;
-    gap: 0;
+  padding-left: 275px;
+  padding-right: 0px;
+  gap: 0;
 }
 
 
 
-.icon{
-    gap: 5px;
-    margin-left: 1px;
-    margin-right: -13px;
+.icon {
+  gap: 5px;
+  margin-left: 1px;
+  margin-right: -13px;
 }
 
-#background{
-    color: #FFFF;
+#background {
+  color: #FFFF;
 }
 
 .home-title {
 
-   font-family: Futura PT;
-   color: #403A3E ;
-   margin-top: 250px;
-   font-size: 87px;
-   line-height: 112.82px;
-   font-weight: 300;
-  
-   text-transform: uppercase;
-   font-style: normal;
+  font-family: Futura PT;
+  color: #403A3E;
+  margin-top: 250px;
+  font-size: 87px;
+  line-height: 112.82px;
+  font-weight: 300;
 
-   width: 477px;
-   height: 226px;
+  text-transform: uppercase;
+  font-style: normal;
+
+  width: 477px;
+  height: 226px;
 }
 
-#hero-msg h1, #hero-msg h4{
-    
-    margin-left: 670px;
-    margin-top: 255px;
+#hero-msg h1,
+#hero-msg h4 {
+
+  margin-left: 670px;
+  margin-top: 255px;
 
 }
 
-#hero-msg h4{ 
+#hero-msg h4 {
   margin-top: -60px;
 }
 
 
 
-.button-box{
-    margin-left: 400px;  
+.button-box {
+  margin-left: 400px;
 }
 
-#hero-msg h4{
-    font-family: montserrat;
-    color: #778CA3;
-    
-   width: 477px;
-   height: 85px;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 15px;
-   line-height: 18px;
+#hero-msg h4 {
+  font-family: montserrat;
+  color: #778CA3;
+
+  width: 477px;
+  height: 85px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
 }
 
-.button-box{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    
+.button-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 
-    width: 180px;
-    height: 50px;
 
-    background: #6A4D67;
-    border-radius: 50px 0 0 50px;
-    text-align: center;
-    margin-left: 670px;
-    margin-top: -35px;
+  width: 180px;
+  height: 50px;
 
-}
-
-.book{
-    padding-left: 60px;
-    margin-top: 15px;
-    color: #FFFF;
-    font-family: Montserrat;
-    font-style: normal;
-    text-decoration: none;
+  background: #6A4D67;
+  border-radius: 50px 0 0 50px;
+  text-align: center;
+  margin-left: 670px;
+  margin-top: -35px;
 
 }
 
-.button-box:hover{
+.book {
+  padding-left: 60px;
+  margin-top: 15px;
+  color: #FFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  text-decoration: none;
+
+}
+
+.button-box:hover {
   box-shadow: 0 0 10px rgba(147, 100, 142, 0.58);
   border-radius: 50px;
 
@@ -193,17 +194,18 @@ nav a:hover {
   margin-left: 1280px;
   margin-top: -580px;
   border-radius: 20px 0px 0px 20px;
- 
+
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
- 
+
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -227,8 +229,9 @@ nav a:hover {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -265,7 +268,8 @@ nav a:hover {
 
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -275,37 +279,42 @@ nav a:hover {
   animation-duration: 1.5s;
 }
 
-.m{
+.m {
   width: 941px;
   height: 787px;
   border-radius: 20px 0 0 20px;
 }
 
-element.style{
+element.style {
   padding-left: 1000px;
 }
 
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 
 
-.two{
+.two {
   margin-top: 100px;
   background: rgba(223, 228, 234, 0.21);
 }
 
 
 
-.section_2_text{
-  
+.section_2_text {
+
   width: 246px;
   margin-left: 460;
 
-  
+
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: 450;
@@ -321,15 +330,15 @@ element.style{
 }
 
 
-.tkanyna_1{
+.tkanyna_1 {
   margin-top: -400px;
-  margin-left: 300px; 
+  margin-left: 300px;
 
- 
+
 }
 
-.two{
- /* width: 2530px;
+.two {
+  /* width: 2530px;
   height: 767px;*/
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -351,14 +360,14 @@ element.style{
   margin-left: -250px;
 
 
-  
+
 
 
   box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
 }
 
 
-.card2{
+.card2 {
   width: 374px;
   height: 194px;
   line-height: 1.5em;
@@ -373,7 +382,7 @@ element.style{
   box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
 }
 
-.card3{
+.card3 {
   width: 374px;
   height: 194px;
   line-height: 1.5em;
@@ -388,7 +397,7 @@ element.style{
   box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
 }
 
-.card4{
+.card4 {
   width: 374px;
   height: 194px;
   line-height: 1.5em;
@@ -403,7 +412,7 @@ element.style{
   box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
 }
 
-.card5{
+.card5 {
   width: 374px;
   height: 194px;
   line-height: 1.5em;
@@ -418,7 +427,7 @@ element.style{
   box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
 }
 
-.card6{
+.card6 {
   width: 374px;
   height: 194px;
   line-height: 1.5em;
@@ -433,7 +442,7 @@ element.style{
   box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
 }
 
-.pic{
+.pic {
   height: 86px;
   width: 100px;
   margin-left: 140px;
@@ -442,7 +451,7 @@ element.style{
 
 }
 
-.card1:hover{
+.card1:hover {
   border: 1px solid rgba(164, 176, 190, 0.3);
   box-shadow: 10px 0px 50px rgba(175, 184, 201, 0.2);
   border-radius: 50px;
