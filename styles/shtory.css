@@ -3,18 +3,15 @@
 
 
 .header-nav {
-  margin: 30px auto;
-  height: 30px;
+  margin: 57px auto;
+  height: 57px;
   max-width: 1200px;
 
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(11px);
 
   align-items: center;
-}
-
-.header-nav {
-  min-width: 935px;
+  min-width: 1125px;
   clear: both;
 }
 
@@ -56,16 +53,19 @@ header::after{
 }
 
 .header-nav-phone {
+  padding-left: 70px;
   width: 14%;
   padding-top: 16px;
 }
 
 .header-nav-social {
+  min-width: 90px;
   width: 8%;
   padding-top: 18px;
 }
 
 .header-nav-cart {
+  margin-left: -70px;
   width: 10%;
   padding-top: 15px;
 }
@@ -91,6 +91,7 @@ header::after{
 }
 
 .social-icon {
+  padding-right: 10px;
   gap: 5px;
 }
 
@@ -375,100 +376,30 @@ element.style {
 
 }
 
-
-.card1 {
+.card{  
   width: 374px;
   height: 194px;
   line-height: 1.5em;
   background-color: #FFFF;
   padding: 35px;
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 1;
   border-radius: 20px;
-  /* margin-top: 260px; */
-  /* margin-left: -250px; */
-
-
-
-
 
   box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
+}
+
+.card-container {
+  grid-column: 1;
 }
 
 
 .card2 {
-  width: 374px;
-  height: 194px;
-  line-height: 1.5em;
-  background-color: #FFFF;
-  padding: 35px;
   grid-column: 2;
-  grid-row: 1;
-  border-radius: 20px;
-  /* margin-top: -260px; */
-  /* margin-left: 250px; */
-
-  box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
-}
-
-.card3 {
-  width: 374px;
-  height: 194px;
-  line-height: 1.5em;
-  background-color: #FFFF;
-  padding: 35px;
-  grid-column: 3;
-  grid-row: 1;
-  border-radius: 20px;
-  /* margin-top: -260px; */
-  /* margin-left: 750px; */
-
-  box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
-}
-
-.card4 {
-  width: 374px;
-  height: 194px;
-  line-height: 1.5em;
-  background-color: #FFFF;
-  padding: 35px;
-  grid-column: 3;
-  grid-row: 1;
-  border-radius: 20px;
-  /* margin-top: 30px; */
-  /* margin-left: 750px; */
-
-  box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
 }
 
 .card5 {
-  width: 374px;
-  height: 194px;
-  line-height: 1.5em;
-  background-color: #FFFF;
-  padding: 35px;
-  grid-column: 3;
   grid-row: 1;
-  border-radius: 20px;
-  /* margin-top: -270px; */
-  /* margin-left: 250px; */
-
-  box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
-}
-
-.card6 {
-  width: 374px;
-  height: 194px;
-  line-height: 1.5em;
-  background-color: #FFFF;
-  padding: 35px;
-  grid-column: 3;
-  grid-row: 1;
-  border-radius: 20px;
-  /* margin-top: -270px; */
-  /* margin-left: -250px; */
-
-  box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
 }
 
 .pic {
