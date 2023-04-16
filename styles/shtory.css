@@ -1,36 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;300;500;600;700&family=Roboto:wght@100&display=swap');
 @import 'vlada/stylesheet.css';
 
-header {
+.header-nav {
+  clear: both;
+  min-width: 935px;
+}
+
+.header-nav>* {
+  float: left;
+  overflow: hidden;
+}
+
+#logo_link {
+  background-color: red;
+  width: 12%;
+  min-width: 110px;
+}
+
+.header-nav-text-link {
+  background-color: green;
+  width: 40%;
+}
+
+.header-nav-phone {
+  background-color: blue;
+  width: 23%;
+}
+
+.header-nav-social {
+  background-color: yellow;
+  width: 15%;
+}
+
+.header-nav-cart {
+  background-color: black;
+  width: 10%;
+}
+
+.header-nav {
   margin: 0 auto;
   max-width: 1920px;
   margin-top: 30px;
-  height: 1px;
-  left: calc(50% - 1920px/2 - 13px);
-  top: 40px;
-
 
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(11px);
-}
 
-nav {
-  /* display: flex; */
-  flex-direction: row;
   align-items: center;
-  padding: 0px;
-  gap: 33px;
-
-
-  /* position: absolute; */
-  width: 1232px;
-  height: 53px;
-  left: 565;
-
-  top: 0px;
-  background-color: #FFFF;
-
-
 }
 
 .one {
