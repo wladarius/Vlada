@@ -1,138 +1,142 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Firanka</title>
-    <link rel="stylesheet" href="styles/shtory.css">
+  <title>Firanka</title>
+  <link rel="stylesheet" href="styles/shtory.css">
 
 </head>
+
 <body>
   <header>
-    <a id="logo_link" href="shtory.html"></a>
-    <img class="logo_png" src="images\logo.svg" alt="firanka_logo">
-               
-            </a>
-            <nav>
-                <div class = 'nav_1'>
-                <a href="katalog.html">Каталог</a>
-                <a href="novyny.html">Новини</a>
-                <a href="portfolio.html">Портфоліо</a>
-                <a href="vidhyky.html">Відгуки</a>
-                </div>
+    <a id="logo_link" href="shtory.html">
+      <img class="logo_png" src="images\logo.svg" alt="firanka_logo">
+    </a>
+
+    </a>
+    <nav>
+      <div class='nav_1'>
+        <a href="katalog.html">Каталог</a>
+        <a href="novyny.html">Новини</a>
+        <a href="portfolio.html">Портфоліо</a>
+        <a href="vidhyky.html">Відгуки</a>
+      </div>
 
 
 
-                <img class = 'icon_n' src = 'images\phone.svg' alt="phone">
-                <p class = 'number'> 095 131 50 95</p>
-                <img class = 'icon' src = 'images\telegramm.svg' alt="telegram">
-                <img class = 'icon' src = 'images\instagramm.svg' alt="instagram">
-                <img class = 'icon' src = 'images\facebook.svg' alt="facebook">
-                
+      <img class='icon_n' src='images\phone.svg' alt="phone">
+      <p class='number'> 095 131 50 95</p>
+      <img class='icon' src='images\telegramm.svg' alt="telegram">
+      <img class='icon' src='images\instagramm.svg' alt="instagram">
+      <img class='icon' src='images\facebook.svg' alt="facebook">
 
-                <img class = 'icon_png' src = 'images\trolley 2.svg' alt = 'cart'>
-            </nav>
+
+      <img class='icon_png' src='images\trolley 2.svg' alt='cart'>
+    </nav>
     <!--div id="content"-->
-        
+
   </header>
-    <main>
-      <section class = 'one'>
-        <div id="hero-msg">
-            <h1 class="home-title">ШТОРИ НА ВАШ СМАК</h1>
-            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing lit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
-            <h4>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </h4>
-            <div class='button-box'>
-                <a class='book' href="katalog.html">Обрати</a>
-            </div>
+  <main>
+    <section class='one'>
+      <div id="hero-msg">
+        <h1 class="home-title">ШТОРИ НА ВАШ СМАК</h1>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing lit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</h4>
+        <h4>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </h4>
+        <div class='button-box'>
+          <a class='book' href="katalog.html">Обрати</a>
         </div>
-    
-    <!-- Slideshow container -->
-        <div class="slideshow-container">
+      </div>
 
-    <!-- Full-width images with number and caption text -->
-          <div class="mySlides fade">
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
 
-          <img class = 'm' src="images\193967210.jpg" alt='shtora1'>
-          </div>
-  
-          <div class="mySlides fade">
-          <img class = 'm' src="images\1637771878315881.jpg" alt = 'shtora2'>
-          </div>
-  
-          <div class="mySlides fade">
-          <img class = 'm' src="images\196508835.jpg" alt = 'shtora3'>
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+
+          <img class='m' src="images\193967210.jpg" alt='shtora1'>
+        </div>
+
+        <div class="mySlides fade">
+          <img class='m' src="images\1637771878315881.jpg" alt='shtora2'>
+        </div>
+
+        <div class="mySlides fade">
+          <img class='m' src="images\196508835.jpg" alt='shtora3'>
         </div>
 
 
         <div style="text-align:center">
-    
+
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
 
         </div>
-  
-    <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        </div>
-        <br>
 
-  <!-- The dots/circles -->
-
-        <script>let slideIndex = 1;
-      showSlides(slideIndex);
-    
-    // Next/previous controls
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-    
-    // Thumbnail image controls
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-    
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-         dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-      }</script>
-    <!--section2---------------------------------------------------------------------->
-    <section class = "two">
-      <img class="tkanyna_1" src="images\tkatyna_1.svg" alt="tkanyna"> 
-      <h1 class="section_2_text">Наші переваги</h1>
-
-      <div id = "board">
-
-        <div class="card1">
-          <img class = 'pic' src="images\heart.svg">
-        </div>
-        <div class="card2">
-          <img class = 'pic' scr = 'C:\Users\Victoria\Desktop\vlada\images\stars.svg'>
-        </div>
-        <div class="card3">
-          <img class="pic" scr = "images\pac.svg">
-        </div>
-        <div class="card4"></div>
-        <div class="card5"></div>
-        <div class="card6"></div>
-
-
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-
       </div>
-    </section>
-      </main>
-    <!--footer-->
+      <br>
+
+      <!-- The dots/circles -->
+
+      <script>let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }</script>
+      <!--section2---------------------------------------------------------------------->
+      <section class="two">
+        <img class="tkanyna_1" src="images\tkatyna_1.svg" alt="tkanyna">
+        <h1 class="section_2_text">Наші переваги</h1>
+
+        <div id="board">
+
+          <div class="card1">
+            <img class='pic' src="images\heart.svg">
+          </div>
+          <div class="card2">
+            <img class='pic' scr='C:\Users\Victoria\Desktop\vlada\images\stars.svg'>
+          </div>
+          <div class="card3">
+            <img class="pic" scr="images\pac.svg">
+          </div>
+          <div class="card4"></div>
+          <div class="card5"></div>
+          <div class="card6"></div>
+
+
+        </div>
+
+        </div>
+      </section>
+  </main>
+  <!--footer-->
 </body>
-
