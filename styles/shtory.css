@@ -19,12 +19,15 @@
   clear: both;
 }
 
-header{
+header {
   clear: both;
+  margin-top: -36px;
+  
+  height: 132px;
 }
 
 
-header::after{
+header::after {
   clear: both;
 }
 
@@ -86,7 +89,7 @@ header::after{
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
-  
+
   text-decoration: none;
   color: #778CA3;
 }
@@ -153,7 +156,10 @@ nav a:hover {
   height: 226px;
 }
 
-#hero-msg h1,
+#hero-msg h1{
+  position: relative;
+  left: 34%;
+}
 #hero-msg h4 {
 
   /* margin-left: 670px; */
@@ -162,13 +168,22 @@ nav a:hover {
 }
 
 #hero-msg h4 {
-  /* margin-top: -60px; */
+  position: relative;
+  left: 34%;
+  top: -6%;
 }
 
 
 
 .button-box {
   /* margin-left: 400px; */
+}
+
+#hero-msg{
+  min-width: 76%;
+  height: 767px;
+  display: inline-block;
+  gap:4%;
 }
 
 #hero-msg h4 {
@@ -188,13 +203,15 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-
+  position: relative;
+  left: 34%;
+  top: -5%;
 
   width: 180px;
   height: 50px;
 
   background: #6A4D67;
-  border-radius: 50px 0 0 50px;
+  border-radius: 50px;
   text-align: center;
   /* margin-left: 670px; */
   /* margin-top: -35px; */
@@ -219,9 +236,11 @@ nav a:hover {
 
 /* Slideshow container */
 .slideshow-container {
+  position: relative;
   width: 941px;
   height: 787px;
-  position: relative;
+  left: 66.5%;
+  top: -76%;
   /* margin-left: 1280px; */
   /* margin-top: -580px; */
   border-radius: 20px 0px 0px 20px;
@@ -235,8 +254,7 @@ nav a:hover {
 }
 
 /* Next & previous buttons */
-.prev,
-.next {
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -247,7 +265,7 @@ nav a:hover {
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 20px 0px 0px 20px;
+  border-radius: 0 3px 3px 0;
   user-select: none;
 
 }
@@ -377,7 +395,7 @@ element.style {
 
 }
 
-.card{  
+.card {
   width: 374px;
   height: 194px;
   line-height: 1.5em;
