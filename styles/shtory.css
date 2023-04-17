@@ -353,7 +353,13 @@ element.style {
 
 
 .two {
+  position: relative;
+  top: -509px;
   /* margin-top: 100px; */
+  margin-top: -510px;
+  margin: 0 auto;
+  margin-left: -55%;
+  min-width: 2520px;
   background: rgba(223, 228, 234, 0.21);
 }
 
@@ -373,7 +379,7 @@ element.style {
   text-align: center;
   /* margin-left: 670px; */
   position: absolute;
-  top: 1050px;
+  /*top: 1050px; */
 
   color: #403A3E;
 
