@@ -23,29 +23,9 @@ header{
   clear: both;
 }
 
-<<<<<<< HEAD
-nav {
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 33px;
- 
-
-    position: absolute;
-    width: 1228px;
-    height:53px;
-    margin-left: 565px;
-
-    top: 0px;
-    background-color: #FFFF;
-
-
-=======
 header::after{
   clear: both;
->>>>>>> e518dae0def0cd1b820e73fa0ebb017b8cc8c42e
 }
 
 .header-nav>* {
