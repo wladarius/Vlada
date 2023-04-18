@@ -22,7 +22,7 @@
 header {
   clear: both;
   margin-top: -36px;
-  
+
   height: 132px;
 }
 
@@ -157,9 +157,8 @@ nav a:hover {
   height: 226px;
 }
 
-#hero-msg h1{
+#hero-msg h1 {}
 
-}
 #hero-msg h4 {
 
   /* margin-left: 670px; */
@@ -169,11 +168,11 @@ nav a:hover {
 
 #hero-msg h4 {
 
- 
+
   top: -6%;
 }
 
-main{
+main {
   margin: 0 auto;
 
 }
@@ -182,11 +181,11 @@ main{
   /* margin-left: 400px; */
 }
 
-#hero-msg{
+#hero-msg {
   min-width: 76%;
   height: 767px;
   display: inline-block;
-  gap:4%;
+  gap: 4%;
 }
 
 #hero-msg h4 {
@@ -256,7 +255,8 @@ main{
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -390,8 +390,8 @@ element.style {
 
 
 .tkanyna_1 {
-margin-top: -400px;
-/*margin-left: 300px;*/
+  margin-top: -400px;
+  /*margin-left: 300px;*/
 
 
 }
@@ -409,8 +409,6 @@ margin-top: -400px;
   line-height: 1.5em;
   background-color: #FFFF;
   padding: 35px;
-  grid-column: 1;
-  grid-row: 1;
   border-radius: 20px;
 
   box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
@@ -420,13 +418,21 @@ margin-top: -400px;
   grid-column: 1;
 }
 
-
-.card2 {
-  grid-column: 2;
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.card5 {
-  grid-row: 1;
+.board .card:nth-child(3n) {
+  background-color: blue;
+}
+
+.board .card:nth-child(3n+1) {
+  background-color: green;
+}
+
+.board .card:nth-child(3n+2) {
+  background-color: red;
 }
 
 .pic {
@@ -438,9 +444,8 @@ margin-top: -400px;
 
 }
 
-.card1:hover {
+.card:hover {
   border: 1px solid rgba(164, 176, 190, 0.3);
   box-shadow: 10px 0px 50px rgba(175, 184, 201, 0.2);
   border-radius: 50px;
-
 }
