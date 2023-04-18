@@ -356,8 +356,8 @@ element.style {
   /* margin-top: 100px; */
   margin-top: -510px;
   margin: 0 auto;
-  margin-left: -55%;
-  min-width: 2520px;
+  margin-left: 0;
+  min-width: 1599px;
   background: rgba(223, 228, 234, 0.21);
 }
 
