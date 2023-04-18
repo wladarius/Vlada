@@ -103,6 +103,7 @@ header::after {
   margin-top: 10px;
   max-width: 1200px;
   margin: 0 auto;
+  height: 855px;
 }
 
 .icon_png {
@@ -354,31 +355,33 @@ element.style {
 
 .two {
   position: relative;
-  top: -509px;
   /* margin-top: 100px; */
   margin-top: -510px;
   margin: 0 auto;
   margin-left: 0;
   min-width: 1599px;
   background: rgba(223, 228, 234, 0.21);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 
 
 .section_2_text {
 
-  width: 246px;
+  width: 100%;
   /* margin-left: 460; */
 
 
-  font-family: 'Futura PT';
+  font-family: 'Futura PT', 'Nunito', sans-serif;
   font-style: normal;
   font-weight: 450;
   font-size: 40px;
   line-height: 51px;
   text-align: center;
   /* margin-left: 670px; */
-  position: absolute;
+
   /*top: 1050px; */
 
   color: #403A3E;
@@ -387,8 +390,8 @@ element.style {
 
 
 .tkanyna_1 {
-  /* margin-top: -400px; */
-  /* margin-left: 300px; */
+margin-top: -400px;
+/*margin-left: 300px;*/
 
 
 }
@@ -396,9 +399,7 @@ element.style {
 .two {
   /* width: 2530px;
   height: 767px;*/
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
 
 }
 
