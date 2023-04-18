@@ -101,6 +101,8 @@ header::after {
 
 .one {
   margin-top: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .icon_png {
@@ -172,7 +174,7 @@ nav a:hover {
 
 main{
   margin: 0 auto;
-  max-width: 1200px;
+
 }
 
 .button-box {
