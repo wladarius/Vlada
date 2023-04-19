@@ -370,8 +370,10 @@ element.style {
 
 
 .tkanyna{
+  width: 100%;
+  background-repeat: no-repeat;
   grid-template-columns: 1;
-  background-image: url("/images/t.png");
+  background-image: url("//wladarius.github.io/vlada/images/t.png");
   width: 200px;
   height: 500px;
 }
