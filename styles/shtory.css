@@ -362,10 +362,10 @@ element.style {
   margin-left: 0;
   min-width: 1599px;
   background: rgba(223, 228, 234, 0.21);
-  /*display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  height: 767px; */
+  height: 767px; 
 
 }
 
@@ -383,7 +383,7 @@ element.style {
 
 .section_2_text {
 
-  width: 10%;
+  width: 305px;
   height: 80px;
   /* margin-left: 460; */
   font-family: 'Futura PT', 'Nunito', sans-serif;
@@ -449,9 +449,9 @@ element.style {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
-  height: 300px;
-  max-width: 115px;
-  margin-left: 100px;
+  height: 600px;
+  max-width: 1500px;
+
 }
 
 .board .card:nth-child(3n) {
