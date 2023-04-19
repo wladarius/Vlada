@@ -100,6 +100,7 @@ header::after {
 }
 
 .one {
+  height: 845px;
   margin-top: 10px;
 }
 
@@ -353,13 +354,13 @@ element.style {
 
 
 .two {
-  position: relative;
+ /* position: relative;
   top: -509px;
-  /* margin-top: 100px; */
-  margin-top: -510px;
+  /* margin-top: 100px;
+  margin-top: -510px; */
   margin: 0 auto;
-  margin-left: -55%;
-  min-width: 2520px;
+  /*margin-left: -55%;*/
+  
   background: rgba(223, 228, 234, 0.21);
 }
 
