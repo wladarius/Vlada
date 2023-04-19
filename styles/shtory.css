@@ -362,10 +362,10 @@ element.style {
   margin-left: 0;
   min-width: 1599px;
   background: rgba(223, 228, 234, 0.21);
-  display: grid;
+  /*display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  height: 767px;
+  height: 767px; */
 
 }
 
