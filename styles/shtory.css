@@ -365,7 +365,7 @@ element.style {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  height: 767px; 
+  height: 1000px; 
 
 }
 
@@ -382,8 +382,10 @@ element.style {
 }
 
 .section_2_text {
-
+  position: relative;
+  top: 100px;
   width: 305px;
+  left: 283px;
   height: 80px;
   /* margin-left: 460; */
   font-family: 'Futura PT', 'Nunito', sans-serif;
@@ -445,7 +447,7 @@ element.style {
 .board {
   margin: 0 auto;
   position: relative;
-  top: 142px;
+  top: 262px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
