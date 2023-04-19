@@ -377,6 +377,8 @@ element.style {
   background-image: url("//wladarius.github.io/vlada/images/t.png");
   width: 362px;
   height: 846px;
+  position: relative;
+  top: -393px;
 }
 
 .section_2_text {
