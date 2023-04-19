@@ -365,16 +365,21 @@ element.style {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
 }
 
 
+.tkanyna{
+  background-image: url("/images/t.jpg");
+  width: 200px;
+  height: 500px;
+}
 
 .section_2_text {
 
-  width: 100%;
+  width: 162%;
+  height: 80px;
   /* margin-left: 460; */
-
-
   font-family: 'Futura PT', 'Nunito', sans-serif;
   font-style: normal;
   font-weight: 450;
@@ -390,12 +395,12 @@ element.style {
 }
 
 
-.tkanyna_1 {
+/*.tkanyna_1 {
   margin-top: -400px;
   /*margin-left: 300px;*/
 
 
-}
+
 
 .two {
   /* width: 2530px;
@@ -405,6 +410,7 @@ element.style {
 }
 
 .card {
+
   width: 374px;
   height: 194px;
   line-height: 1.5em;
@@ -421,6 +427,9 @@ element.style {
 }
 
 .board {
+  position: relative;
+  top: 142px;
+  left: -148px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
