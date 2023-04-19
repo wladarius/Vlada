@@ -365,6 +365,7 @@ element.style {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 767px;
 
 }
 
@@ -374,8 +375,8 @@ element.style {
   background-repeat: no-repeat;
   grid-template-columns: 1;
   background-image: url("//wladarius.github.io/vlada/images/t.png");
-  width: 200px;
-  height: 500px;
+  width: 362px;
+  height: 846px;
 }
 
 .section_2_text {
