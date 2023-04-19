@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;300;500;600;700&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Bebas+Neue&family=Montserrat:wght@100;300;500;600;700&family=Roboto:wght@100&display=swap');
 @import 'vlada/stylesheet.css';
 
 
@@ -22,7 +22,7 @@
 header {
   clear: both;
   margin-top: -36px;
-  
+
   height: 132px;
 }
 
@@ -102,6 +102,9 @@ header::after {
 .one {
   height: 845px;
   margin-top: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 855px;
 }
 
 .icon_png {
@@ -135,15 +138,13 @@ nav a:hover {
 
 
 
-
-
 #background {
   color: #FFFF;
 }
 
 .home-title {
 
-  font-family: Futura PT;
+  font-family: Futura PT, 'Nunito', sans-serif;
   color: #403A3E;
   /* margin-top: 250px; */
   font-size: 87px;
@@ -153,13 +154,12 @@ nav a:hover {
   text-transform: uppercase;
   font-style: normal;
 
-  width: 477px;
+  width: 478px;
   height: 226px;
 }
 
-#hero-msg h1{
+#hero-msg h1 {}
 
-}
 #hero-msg h4 {
 
   /* margin-left: 670px; */
@@ -169,24 +169,24 @@ nav a:hover {
 
 #hero-msg h4 {
 
- 
+
   top: -6%;
 }
 
-main{
+main {
   margin: 0 auto;
-  max-width: 1200px;
+
 }
 
 .button-box {
   /* margin-left: 400px; */
 }
 
-#hero-msg{
+#hero-msg {
   min-width: 76%;
   height: 767px;
   display: inline-block;
-  gap:4%;
+  gap: 4%;
 }
 
 #hero-msg h4 {
@@ -256,7 +256,8 @@ main{
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -354,32 +355,34 @@ element.style {
 
 
 .two {
-  /*position: relative;
-  top: -509px;
-  /* margin-top: 100px;
-  margin-top: -510px; */
+  position: relative;
+  /* margin-top: 100px; */
+  margin-top: -510px;
   margin: 0 auto;
-  /*margin-left: -55%;*/
-  
+  margin-left: 0;
+  min-width: 1599px;
   background: rgba(223, 228, 234, 0.21);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 
 
 .section_2_text {
 
-  width: 246px;
+  width: 100%;
   /* margin-left: 460; */
 
 
-  font-family: 'Futura PT';
+  font-family: 'Futura PT', 'Nunito', sans-serif;
   font-style: normal;
   font-weight: 450;
   font-size: 40px;
   line-height: 51px;
   text-align: center;
   /* margin-left: 670px; */
-  position: absolute;
+
   /*top: 1050px; */
 
   color: #403A3E;
@@ -388,8 +391,8 @@ element.style {
 
 
 .tkanyna_1 {
-  /* margin-top: -400px; */
-  /* margin-left: 300px; */
+  margin-top: -400px;
+  /*margin-left: 300px;*/
 
 
 }
@@ -397,9 +400,7 @@ element.style {
 .two {
   /* width: 2530px;
   height: 767px;*/
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
 
 }
 
@@ -409,10 +410,9 @@ element.style {
   line-height: 1.5em;
   background-color: #FFFF;
   padding: 35px;
-  grid-column: 1;
-  grid-row: 1;
   border-radius: 20px;
 
+  border: 1px solid #FFFF;
   box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
 }
 
@@ -420,13 +420,21 @@ element.style {
   grid-column: 1;
 }
 
-
-.card2 {
-  grid-column: 2;
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.card5 {
-  grid-row: 1;
+.board .card:nth-child(3n) {
+  background-color: blue;
+}
+
+.board .card:nth-child(3n+1) {
+  background-color: green;
+}
+
+.board .card:nth-child(3n+2) {
+  background-color: red;
 }
 
 .pic {
@@ -438,9 +446,8 @@ element.style {
 
 }
 
-.card1:hover {
+.card:hover {
   border: 1px solid rgba(164, 176, 190, 0.3);
   box-shadow: 10px 0px 50px rgba(175, 184, 201, 0.2);
   border-radius: 50px;
-
 }
