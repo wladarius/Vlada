@@ -383,7 +383,7 @@ element.style {
 
 .section_2_text {
 
-  width: 100%;
+  width: 10%;
   height: 80px;
   /* margin-left: 460; */
   font-family: 'Futura PT', 'Nunito', sans-serif;
@@ -450,6 +450,8 @@ element.style {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
   height: 300px;
+  max-width: 115px;
+  margin-left: 100px;
 }
 
 .board .card:nth-child(3n) {
