@@ -370,7 +370,8 @@ element.style {
 
 
 .tkanyna{
-  background-image: url("/images/t.jpg");
+  grid-template-columns: 1;
+  background-image: url("/images/t.png");
   width: 200px;
   height: 500px;
 }
@@ -420,8 +421,18 @@ element.style {
 
   border: 1px solid #FFFF;
   box-shadow: 0px 10px 20px rgba(124, 169, 164, 0.1);
+
 }
 
+.card_text{
+  font-family: montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #4b6584;
+}
 .card-container {
   grid-column: 1;
 }
@@ -429,24 +440,26 @@ element.style {
 .board {
   position: relative;
   top: 142px;
-  left: -148px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
 }
 
 .board .card:nth-child(3n) {
-  background-color: blue;
+  background-color: #FFFF;
 }
 
 .board .card:nth-child(3n+1) {
-  background-color: green;
+  background-color: #FFFF;
 }
 
 .board .card:nth-child(3n+2) {
-  background-color: red;
+  background-color: #FFFF;
 }
 
 .pic {
+  position: relative;
+  left: 36%;
   height: 86px;
   width: 100px;
   /* margin-left: 140px; */
@@ -455,8 +468,41 @@ element.style {
 
 }
 
+.pic_s{
+  position: relative;
+  left: 27%;
+  height: 86px;
+  width: 100px;
+  /* margin-left: 140px; */
+  /* margin-top: 20px; */
+  border-radius: 0px;
+
+}
+
+.pic_d1{
+  position: relative;
+  left: 32%;
+  height: 86px;
+  width: 100px;
+  /* margin-left: 140px; */
+  /* margin-top: 20px; */
+  border-radius: 0px;
+  z-index: 1;
+}
+
+.pic_d2{
+  position: relative;
+  left: 14%;
+  height: 86px;
+  width: 100px;
+  /* margin-left: 140px; */
+  /* margin-top: 20px; */
+  border-radius: 0px;
+}
+
+
 .card:hover {
   border: 1px solid rgba(164, 176, 190, 0.3);
   box-shadow: 10px 0px 50px rgba(175, 184, 201, 0.2);
-  border-radius: 50px;
+  border-radius: 20px;
 }
