@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Bebas+Neue&family=Montserrat:wght@100;300;500;600;700&family=Roboto:wght@100&display=swap');
-@import '../stylesheet.css';
+@import '../font/stylesheet.css';
 
 
 .header-nav {
@@ -355,37 +355,33 @@ element.style {
 
 
 .two {
-  position: relative;
   /* margin-top: 100px; */
   margin-top: -510px;
   margin: 0 auto;
   margin-left: 0;
   min-width: 1599px;
   background: rgba(223, 228, 234, 0.21);
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  height: 1000px; 
+  height: 1000px;
 
 }
 
 
-.tkanyna{
+.tkanyna {
   width: 100%;
   background-repeat: no-repeat;
   grid-template-columns: 1;
-  background-image: url("//wladarius.github.io/vlada/images/t.png");
-  width: 362px;
+  background-image: url("http://wladarius.github.io/vlada/images/t.png");
   height: 846px;
   position: relative;
   top: -393px;
 }
 
 .section_2_text {
-  position: relative;
-  top: 100px;
+  padding-top: 493px;
   width: 305px;
-  left: 283px;
+  padding-left: 283px;
   height: 80px;
   /* margin-left: 460; */
   font-family: 'Futura PT', 'Nunito', sans-serif;
@@ -431,7 +427,7 @@ element.style {
 
 }
 
-.card_text{
+.card_text {
   font-family: montserrat;
   font-style: normal;
   font-weight: 700;
@@ -440,20 +436,29 @@ element.style {
   text-align: center;
   color: #4b6584;
 }
+
 .card-container {
   grid-column: 1;
 }
 
+@media (max-width: 1000px) {
+  .board {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .board {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .board {
   margin: 0 auto;
-  position: relative;
-  top: 262px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
   height: 600px;
   max-width: 1500px;
-
 }
 
 .board .card:nth-child(3n) {
@@ -479,7 +484,7 @@ element.style {
 
 }
 
-.pic_s{
+.pic_s {
   position: relative;
   left: 27%;
   height: 86px;
@@ -490,7 +495,7 @@ element.style {
 
 }
 
-.pic_d1{
+.pic_d1 {
   position: relative;
   left: 32%;
   height: 86px;
@@ -501,7 +506,7 @@ element.style {
   z-index: 1;
 }
 
-.pic_d2{
+.pic_d2 {
   position: relative;
   left: 14%;
   height: 86px;
