@@ -526,6 +526,7 @@ element.style {
 
 
 .three{
+  margin: 0 auto;
   position: relative;  
   max-width: 1900px;
   height: 767px;
@@ -576,7 +577,7 @@ element.style {
 
 .three .card_3 .image_1{
   height: 100%;
-  width: 100%;
+  width: 374px;
   object-fit: cover;
   border-radius: 50px;
   border: 3px solid #fff;
@@ -681,4 +682,48 @@ element.style {
 
 .swiper, .swiper-container{
   width: 1900px;
+  top:100px
+}
+
+
+.section3_text1{
+  position: relative;
+  top: -229px;
+  left: 212px;
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 40px;
+  line-height: 51px;
+
+  color: #403A3E;
+
+}
+
+.section3_text2{
+  position: relative;
+  text-decoration: none;;
+  top: -229px;
+  left: 1397px;
+  width: 200px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #6A4D67;
+}
+
+.three a:hover{
+  font-family: 'Montserrat';
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-shadow: #6A4D67 1px 0px 20px;
+
 }
