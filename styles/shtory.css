@@ -528,6 +528,7 @@ element.style {
 .three{
   position: relative;  
   width: 1075px;
+  height: 767px;
   display: flex;
   align-items: center;
   flex-direction: row;
