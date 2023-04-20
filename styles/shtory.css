@@ -552,7 +552,7 @@ element.style {
   height: 40%;
   width: 100%;
   background: #7d2ae8;
-  border-radius: 20px 20px 0 0;
+  border-radius:  20px 20px 0px 0px;
 }
 
 .card_3 .card-content{
@@ -564,21 +564,22 @@ element.style {
   z-index: 100;
 }
 
-.three .card_3 .image{
-  height: 140px;
-  width: 140px;
-  border-radius: 50%;
+.three .card_3 .image_1{
+  width: 374px;
+  height: 271px;
+  border-radius:  20px 20px 0px 0px;;
   padding: 3px;
   background: #7d2ae8;
 }
 
-.three .card_3 .image img{
+.three .card_3 .image_1{
   height: 100%;
   width: 100%;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 50px;
   border: 3px solid #fff;
 }
+
 
 .card_3 .media-icons{
   position: absolute;
