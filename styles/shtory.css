@@ -527,7 +527,7 @@ element.style {
 
 .three{
   position: relative;  
-  width: 1075px;
+  max-width: 1900px;
   height: 767px;
   display: flex;
   align-items: center;
@@ -541,6 +541,8 @@ element.style {
 .card_3{
   position: relative;
   background: #fff;
+  width: 374px;
+  height: 502px;
   border-radius: 20px;
   margin: 20px 0;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -674,4 +676,9 @@ element.style {
 .swiper-button-next:hover, .swiper-button-prev:hover{
   opacity: 1;
   color: #7d2ae8;
+}
+
+
+.swiper, .swiper-container{
+  width: 1900px;
 }
