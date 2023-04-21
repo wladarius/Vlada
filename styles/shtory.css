@@ -442,12 +442,12 @@ element.style {
   grid-column: 1;
 } */
 
-/*@media (max-width: 1000px) {
+@media (max-width: 1000px) {
   .board {
     grid-template-columns: 1fr;
   }
 }
-*/
+
 
 .board {
   margin: 0 auto;
@@ -602,7 +602,7 @@ element.style {
   margin-top: 10px;
   transition: all 0.3s ease;
   cursor: pointer;
-}
+}.
 
 .card_3 .media-icons i:hover{
   opacity: 1;
@@ -657,9 +657,9 @@ element.style {
   cursor: pointer;
 } */
 
-/* .button button:hover{
+ .button button:hover{
   background: #6616d0;
-} */
+} 
 
 /* .swiper-pagination{
   position: absolute;
@@ -693,7 +693,10 @@ element.style {
 } */
 
 
+.swiper{
+  left: -130px;
 
+}
 .section3_text1{
   position: relative;
   top: -229px;
