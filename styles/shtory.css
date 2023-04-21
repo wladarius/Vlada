@@ -683,11 +683,11 @@ element.style {
 
 
 .swiper, .swiper-container{
+  padding-left: 22px;
+  padding-right: 2010px;
   width: 1900px;
   top:100px;
-  padding: 0;
-  padding-right: 152px;
-  padding-left: 22px;
+  padding: 0px;
 }
 
 
@@ -744,6 +744,17 @@ element.style {
 }
 
 .s_padding{
+  padding: 0px;
   padding-left: 22px;
   padding-right: 2010px;
+}
+
+.ss_padding{
+  transition-duration: 0ms;
+  transform: translate3d(-50px, 0px, 0px);
+}
+
+
+.swiper-wrapper{
+  transform: translate3d(-50px,0,0);
 }
