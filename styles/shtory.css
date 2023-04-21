@@ -537,6 +537,8 @@ element.style {
 
 .swiper{
   width: 950px;
+  padding-right: 152px;
+  padding-left: 22px;
 }
 
 .card_3{
@@ -682,7 +684,10 @@ element.style {
 
 .swiper, .swiper-container{
   width: 1900px;
-  top:100px
+  top:100px;
+  padding: 0;
+  padding-right: 152px;
+  padding-left: 22px;
 }
 
 
@@ -730,4 +735,15 @@ element.style {
 
 .s_width{
   width: 1182px;
+}
+
+.swiper-horizontal{
+  padding-right: 152px;
+  padding-left: 22px;
+  padding: 142px;
+}
+
+.s_padding{
+  padding-left: 22px;
+  padding-right: 2010px;
 }
