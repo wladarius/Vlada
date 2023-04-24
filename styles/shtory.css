@@ -398,6 +398,9 @@ element.style {
 
   color: #403A3E;
 
+  position: relative;
+  left: 260px;
+
 }
 
 
@@ -733,7 +736,7 @@ element.style {
   position: relative;
   text-decoration: none;;
   top: -229px;
-  left: 1397px;
+  left: 1263px;
   width: 200px;
   font-family: 'Montserrat';
   font-style: normal;
