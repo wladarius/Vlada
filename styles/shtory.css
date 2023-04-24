@@ -827,6 +827,10 @@ element.style {
 
 .name-description{
   text-align: center;
+  min-height: 36px;
+  position: relative;
+  top: -10px;
+
 
 }
 
@@ -844,6 +848,10 @@ element.style {
   text-align: center;
 
   color: #403A3E;
+
+  margin: 0 auto;
+  position: relative;
+  top: -17px;
 }
 
 .aboutMe{
