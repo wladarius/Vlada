@@ -360,6 +360,7 @@ element.style {
   margin: 0 auto;
   margin-left: 0;
   min-width: 1599px;
+  min-width: 1700px;
   background: rgba(223, 228, 234, 0.21);
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -409,7 +410,7 @@ element.style {
 
 
 .two {
-  width: 2530px;
+  max-width: 2530px;
   height: 800px;
 
 
@@ -530,6 +531,7 @@ element.style {
   margin: 0 auto;
   position: relative;  
   max-width: 1900px;
+  min-width: 1700px;
   height: 767px;
   display: flex;
   align-items: center;
@@ -888,4 +890,8 @@ border-radius: 50px;
 position: relative;
 left: 201px;
 top: -48px;
+}
+
+:root {
+  --swiper-theme-color: #4B6584;
 }
