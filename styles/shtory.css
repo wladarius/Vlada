@@ -1274,7 +1274,14 @@ input[type=submit] {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-}
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  }
 
 input[type=submit]:hover {
   background: #6A4D67;
@@ -1289,7 +1296,10 @@ input[type=submit]:hover {
   background-color: #F8F9FB;
   max-width: 477px;
   border: none;
-  height: 795px;
+  height: 595px;
+  position: relative;
+  left: 361px;
+  top:200px;
 }
 
 .eight{
@@ -1314,6 +1324,7 @@ input[type=submit]:hover {
   font-size: 40px;
   line-height: 51px;
   color: #403A3E;
+  width: 500px;
 }
 
 .section8_text2{
@@ -1324,4 +1335,5 @@ input[type=submit]:hover {
   line-height: 18px;
 
   color: #778CA3;
+  width: 500px;
 }
