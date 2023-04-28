@@ -1138,53 +1138,97 @@ left: 190px;
   background-color: #fff;
   box-sizing: border-box;
   margin: 0;
+  background-image: url('images/tkanyna_3.svg');
+  background-position: left;
+  background-size: auto;
 }
 
 
 
 .portfolio {
-  text-align: center;
+  text-align: left;
   padding: 32px;
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 40px;
+  line-height: 51px;
+
+color: #403A3E;
 }
 
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
+.grid-container {
+  position: relative;
+  left: -513px;
+  width: 100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "post-1 post-1 post-3 post-4"  
+                       "post-1 post-1 post-3 post-4";
+                       
+  grid-template-rows: 380px 380px;
+  grid-template-columns: 560px 187px 187px 187px;
+  gap: 20px;
+}
+.post-1 {
+  grid-area: post-1;
+}
+.post-2 {           
+  grid-area: post-2;
+
+}
+.post-3 {
+  grid-area: post-3;
+
+}
+.post-4 {           
+  grid-area: post-4;
+
+}
+.post-5 {
+  grid-area: post-5;
+
+}
+.post-6 {           
+  grid-area: post-6;
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+.n7{
+  grid-template-columns: 4;
+  position: relative;
+  left: 106px;
+  top: -115px;
 }
 
-.column .n {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+.n6{
+  position: relative;
+  top: -115px;
+  height: 181px;
+}
+
+.n8{
+  position: relative;
+  bottom: -87px;
+  
+  height: 245px;
+}
+
+.grid-container img{
   border-radius: 20px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
+.n10{
+  position: relative;
+  left: 208px;
+  top: -315px;
+  
+  height: 245px;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
+.n9{
+  position: relative;
+  left: 582px;
+  top: -314px;
+  
+  height: 245px;
 }
-
