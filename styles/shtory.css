@@ -1163,8 +1163,8 @@ position: relative;
 
 .grid-container {
   position: relative;
-  left: -513px;
-  width: 100px;
+
+  width: 1200px;
   margin: 0 auto;
   display: grid;
   grid-template-areas: "post-1 post-1 post-3 post-4"  
@@ -1247,38 +1247,54 @@ position: relative;
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #F8F9FB;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  border-radius: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+
+color: #A4B0BE;
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #6A4D67;
+  width: 179px;
+  height: 50px;
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 50px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background: #6A4D67;
+  /* кнопка */
+  
+  box-shadow: 0px 0px 10px rgba(147, 100, 142, 0.58);
+  border-radius: 50px;
 }
 
 .contact_form {
   border-radius: 5px;
   background-color: #F8F9FB;
-  padding: 20px;
-  width: 1000px;
+  max-width: 477px;
   border: none;
+  height: 795px;
 }
 
 .eight{
-  min-width: 1900px;
-  height: 700px;
+  min-width: 1700px;
+  height: 919px;
   background-color: #F8F9FB;
 }
 
@@ -1286,4 +1302,26 @@ input[type=submit]:hover {
   position: relative;
   left: 1300px;
   top: -632px;
+  height: 919px;
+  max-width: 919px;
+
+}
+
+.section8_text1{
+  font-family: 'Futura PT';
+  font-style: normal;
+  font-weight: 450;
+  font-size: 40px;
+  line-height: 51px;
+  color: #403A3E;
+}
+
+.section8_text2{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #778CA3;
 }
