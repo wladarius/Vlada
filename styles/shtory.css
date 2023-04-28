@@ -1157,6 +1157,8 @@ left: 190px;
   line-height: 51px;
 
 color: #403A3E;
+left: 600px;
+position: relative;
 }
 
 .grid-container {
@@ -1233,4 +1235,12 @@ color: #403A3E;
   top: -314px;
   
   height: 245px;
+}
+
+.grid-container img:hover{
+  opacity: .6;
+  transform: scale(1);
+  background-color: rgba(164, 176, 190, 0.5);
+  background-image: url('images/search.svg');
+  background-size: auto;
 }
