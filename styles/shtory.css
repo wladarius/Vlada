@@ -1138,9 +1138,11 @@ left: 190px;
   background-color: #fff;
   box-sizing: border-box;
   margin: 0;
-  background-image: url('images/tkanyna_3.svg');
+  background-image: url('https://wladarius.github.io/vlada/images/tkanyna_3.svg');
   background-position: left;
   background-size: auto;
+  background-repeat: no-repeat;
+  background-position-y:top;
 }
 
 
