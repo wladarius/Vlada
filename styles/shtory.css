@@ -1240,7 +1240,7 @@ position: relative;
 .grid-container img:hover{
   opacity: .6;
   transform: scale(1);
-  background-color: rgba(164, 176, 190, 0.5);
-  background-image: url('images/search.svg');
+  background-color: #fff;
+  background-image: url('https://wladarius.github.io/vlada/images/search.svg');
   background-size: auto;
 }
