@@ -1133,7 +1133,7 @@ left: 190px;
 
 /*--------------------------------------------------------------------------------------*/
 .seven{
-  height:1000px;
+  height:1157px;
   min-width: 1700px;
   background-color: #fff;
   box-sizing: border-box;
@@ -1300,20 +1300,27 @@ input[type=submit]:hover {
   position: relative;
   left: 361px;
   top:200px;
+  grid-template-columns: 1;
 }
 
 .eight{
   min-width: 1700px;
   height: 919px;
   background-color: #F8F9FB;
+  display: grid;
+  grid-template-columns: 600px 600px;
+
 }
 
 .fform_image{
   position: relative;
-  left: 1300px;
-  top: -632px;
+  left: 700px;
+  top: -794px;
   height: 919px;
+  min-width: 500px;
   max-width: 919px;
+  grid-template-columns: 2;
+
 
 }
 
