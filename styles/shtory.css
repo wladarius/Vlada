@@ -1344,3 +1344,75 @@ input[type=submit]:hover {
   color: #778CA3;
   width: 500px;
 }
+
+footer{
+  height: 500px;
+  max-width: 1700px;
+  background-color: #fff;
+}
+
+footer a{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+
+  color: #4B6584;
+
+}
+footer p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+
+  color: #4B6584;
+
+}
+
+.link_1{
+  position: relative;
+  left: 895px;
+  top: 159px;
+  line-height: 45px;
+}
+
+.logo_f{
+  position: relative;
+  left: 686px;
+  top: 217px;
+}
+
+.link_2{
+  position: relative;
+  left: 1115px;
+  top: -27px;
+  line-height: 45px;
+}
+
+.link_3{
+  position: relative;
+  left: 1371px;
+
+  top: -208px;
+}
+
+.link_4{
+  position: relative;
+  left: 1719px;
+
+  top: -329px;
+
+}
+
+.icons_f{
+  left: 1763px;
+  top: -306px;
+  position: relative;
+}
