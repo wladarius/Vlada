@@ -1260,9 +1260,14 @@ input[type=text], select, textarea {
   font-size: 16px;
   line-height: 20px;
   /* identical to box height */
+  height: 75px;
+  position: relative;
+  top: -146px;
+  left: -5px;
+  
 
 
-color: #A4B0BE;
+  color: #A4B0BE;
 }
 
 input[type=submit] {
@@ -1281,7 +1286,13 @@ input[type=submit] {
   font-size: 15px;
   line-height: 18px;
   text-align: center;
-  }
+  
+  position: relative;
+  top: -74px;
+  left: -30px;
+
+
+}
 
 input[type=submit]:hover {
   background: #6A4D67;
@@ -1298,7 +1309,7 @@ input[type=submit]:hover {
   border: none;
   height: 595px;
   position: relative;
-  left: 361px;
+  left: 695px;
   top:200px;
   grid-template-columns: 1;
 }
@@ -1314,8 +1325,9 @@ input[type=submit]:hover {
 
 .fform_image{
   position: relative;
-  left: 700px;
-  top: -794px;
+  left: 629px;
+
+  top: -896px;
   height: 919px;
   min-width: 500px;
   max-width: 919px;
@@ -1332,6 +1344,8 @@ input[type=submit]:hover {
   line-height: 51px;
   color: #403A3E;
   width: 500px;
+  position: relative;
+  top: -124px;
 }
 
 .section8_text2{
@@ -1343,11 +1357,13 @@ input[type=submit]:hover {
 
   color: #778CA3;
   width: 500px;
+  position: relative;
+  top: -149px;
 }
 
 footer{
   height: 500px;
-  max-width: 1700px;
+  min-width: 1700px;
   background-color: #fff;
 }
 
@@ -1415,4 +1431,28 @@ footer p{
   left: 1763px;
   top: -306px;
   position: relative;
+}
+
+footer a:hover{
+  text-shadow: #6A4D67 1px 0px 20px;
+}
+
+.checkbox_text{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  position: relative;
+  top: -102px;
+  left: 39px;
+
+  color: #403A3E
+}
+
+input[type="checkbox" i]{
+  top: -149px;
+  position: relative;
+  width: 20px;
+  height: 20px;
 }

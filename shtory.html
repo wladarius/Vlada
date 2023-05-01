@@ -694,7 +694,25 @@
       
     
           <textarea id="subject" name="subject" placeholder="Питання" style="height:200px"></textarea>
-      
+          
+          <p class = 'checkbox_text'>Даю згоду  на обробку персональних даних</p>
+
+          
+          <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+          <script>
+            function myFunction() {
+              var checkBox = document.getElementById("myCheck");
+              var text = document.getElementById("text");
+              if (checkBox.checked == true){
+                text.style.display = "block";
+              } else {
+                 text.style.display = "none";
+              }
+            }
+            </script>
+            
+
           <input type="submit" value="Замовити">
         </form>
         <img class = 'fform_image' src="images/image_70.svg">
