@@ -1303,31 +1303,37 @@ input[type=submit]:hover {
 }
 
 .contact_form {
+  margin: 0 auto;
   border-radius: 5px;
   background-color: #F8F9FB;
   max-width: 477px;
   border: none;
   height: 595px;
   position: relative;
-  left: 695px;
+  left: -405px;
   top:200px;
-  grid-template-columns: 1;
+
 }
 
 .eight{
   min-width: 1700px;
   height: 919px;
   background-color: #F8F9FB;
-  display: grid;
-  grid-template-columns: 600px 600px;
 
+
+
+}
+
+form{
+  top: -843px;
+  position: relative;
 }
 
 .fform_image{
   position: relative;
   left: 629px;
 
-  top: -896px;
+  top: -342px;
   height: 919px;
   min-width: 500px;
   max-width: 919px;
@@ -1345,7 +1351,7 @@ input[type=submit]:hover {
   color: #403A3E;
   width: 500px;
   position: relative;
-  top: -124px;
+  top: -92px;
 }
 
 .section8_text2{
@@ -1358,15 +1364,20 @@ input[type=submit]:hover {
   color: #778CA3;
   width: 500px;
   position: relative;
-  top: -149px;
+  top: -95px;
 }
 
 footer{
-  height: 500px;
+  height: 400px;
   min-width: 1700px;
   background-color: #fff;
 }
 
+
+.footer_context {
+  margin: 0 auto;
+  height: 500px;
+}
 footer a{
   font-family: 'Montserrat';
   font-style: normal;
@@ -1424,6 +1435,8 @@ footer p{
   left: 1719px;
 
   top: -329px;
+  width: 300px;
+
 
 }
 
@@ -1455,4 +1468,8 @@ input[type="checkbox" i]{
   position: relative;
   width: 20px;
   height: 20px;
+}
+
+.footer_context{
+  margin: 0 auto;
 }
