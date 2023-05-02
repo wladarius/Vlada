@@ -105,7 +105,7 @@ header::after {
   margin-top: 10px;
   max-width: 1200px;
   margin: 0 auto;
-  height: 855px;
+  height: 825px;
 }
 
 .icon_png {
@@ -152,6 +152,9 @@ nav a:hover {
   line-height: 112.82px;
   font-weight: 300;
 
+  position: relative;
+  top: 17px;
+
   text-transform: uppercase;
   font-style: normal;
 
@@ -170,8 +173,9 @@ nav a:hover {
 
 #hero-msg h4 {
 
+  position: relative;
+  top: -38px;
 
-  top: -6%;
 }
 
 main {
@@ -208,7 +212,10 @@ main {
   flex-direction: row;
   align-items: flex-start;
 
-  top: -5%;
+  
+  position: relative;
+  top: -30px;
+
 
   width: 180px;
   height: 50px;
@@ -365,7 +372,7 @@ element.style {
   background: rgba(223, 228, 234, 0.21);
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  height: 1000px;
+  height: 746px;
 
 }
 
@@ -381,7 +388,7 @@ element.style {
 }
 
 .section_2_text {
-  padding-top: 493px;
+  padding-top: 470px;
   width: 305px;
   padding-left: 283px;
   height: 80px;
@@ -399,7 +406,7 @@ element.style {
   color: #403A3E;
 
   position: relative;
-  left: 260px;
+  left: 348px;
 
 }
 
@@ -415,18 +422,21 @@ element.style {
 
 .two {
   max-width: 2530px;
-  height: 800px;
+  height: 746px;
 
 
 }
 
 .card_0 {
 
-  width: 310px;
-  height: 125px;
+  position: relative;
+  left: -18px;
+  width: 300px;
+  height: 115px;
   line-height: 1.5em;
   background-color: #FFFF;
   padding: 35px;
+  padding-left: 27px;
   border-radius: 20px;
 
   border: 1px solid #FFFF;
@@ -442,6 +452,9 @@ element.style {
   line-height: 17px;
   text-align: center;
   color: #4b6584;
+
+  position: relative;
+  top: -24px;
 } 
 /* .card-container {
   grid-column: 1;
@@ -477,9 +490,9 @@ element.style {
 
 .pic {
   position: relative;
-  left: 36%;
+  left: 114px;
   height: 86px;
-  width: 100px;
+  width: 66px;
   /* margin-left: 140px; */
   /* margin-top: 20px; */
   border-radius: 0px;
@@ -488,7 +501,9 @@ element.style {
 
 .pic_s {
   position: relative;
-  left: 27%;
+  
+  left: 71px;
+  top: -14px;
   height: 86px;
   width: 100px;
   /* margin-left: 140px; */
@@ -501,7 +516,7 @@ element.style {
   position: relative;
   left: 32%;
   height: 86px;
-  width: 100px;
+  width: 80px;
   /* margin-left: 140px; */
   /* margin-top: 20px; */
   border-radius: 0px;
@@ -512,7 +527,7 @@ element.style {
   position: relative;
   left: 14%;
   height: 86px;
-  width: 100px;
+  width: 80px;
   /* margin-left: 140px; */
   /* margin-top: 20px; */
   border-radius: 0px;
@@ -720,8 +735,8 @@ element.style {
 }
 .section3_text1{
   position: relative;
-  top: -253px;
-  left: 382px;
+  top: -326px;
+  left: 662px;
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: 450;
@@ -735,8 +750,9 @@ element.style {
 .section3_text2{
   position: relative;
   text-decoration: none;;
-  top: -229px;
-  left: 1263px;
+  top: -325px;
+  left: 1541px;
+
   width: 200px;
   font-family: 'Montserrat';
   font-style: normal;
@@ -1092,7 +1108,7 @@ left: 190px;
 .section6_text1{
   position: relative;
   top: -253px;
-  left: 382px;
+  left: 644px;
   font-family: 'Futura PT';
   font-style: normal;
   font-weight: 450;
@@ -1106,8 +1122,8 @@ left: 190px;
 .section6_text2{
   position: relative;
   text-decoration: none;;
-  top: -229px;
-  left: 1263px;
+  top: -326px;
+  left: 1691px;
   width: 200px;
   font-family: 'Montserrat';
   font-style: normal;
