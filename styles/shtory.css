@@ -6,13 +6,13 @@
 .header-nav {
   margin: 57px auto;
   height: 57px;
-  max-width: 1200px;
+
 
   background: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(11px);
 
   align-items: center;
-  min-width: 1125px;
+  width: 1200px;
   clear: both;
 }
 
@@ -23,7 +23,7 @@
 header {
   clear: both;
   margin-top: -36px;
-
+  min-width: 1700px;
   height: 132px;
 }
 
@@ -460,11 +460,7 @@ element.style {
   grid-column: 1;
 } */
 
-@media (max-width: 1000px) {
-  .board {
-    grid-template-columns: 1fr;
-  }
-}
+
 
 
 .board {
@@ -1498,4 +1494,97 @@ input[type="checkbox" i]{
 .footer_context{
   margin: 0 auto;
   overflow: hidden;
+}
+
+
+
+
+@media (max-width: 1000px) {
+  .header-nav{
+    width: 1500px;
+  }
+  .header {
+    width: 414px;
+    
+  }
+  .header-nav-text-link{
+    display: none;
+  }
+  .header-nav-phone{
+    display:none
+
+  }
+  .header-nav-social{
+    display: none;
+  }
+  .logo-png{
+    width: 300px;
+    position: relative;
+    left: 0;
+  }
+  .header-nav-cart-image{
+    width: 100px;
+    position: relative;
+    left: 971px;
+  }
+  .header-nav>*{
+    overflow: visible;
+  }
+  .slideshow-container{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    margin: 0 auto;
+
+    z-index: 1;
+  }
+
+  .m{
+    top: -678px;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+    height: 1262px;
+    position: relative;
+    border-radius: 0 0px 50px 50px;
+    left: -100px;
+  }
+  
+
+  .one{
+    width: 1800px;
+    height:2100px;
+  }
+
+  .home-title{
+    position: relative;
+    left: 156px;
+    top: 1300px;
+    width: 1218px;
+    font-size: 119px;
+    font-weight: 400;
+  }
+  #hero-msg h4{
+    position: relative;
+    top: 1159px;
+    font-size: 40px;
+    width: 1139px;
+    line-height: 1;
+    position: relative;
+    left: 196px;
+  }
+  .button-box{
+    position: relative;
+    position: relative;
+    top: 1300px;
+    left: 149px;
+    width: 1200px;
+    height: 141px;
+    border-radius: 100px;
+    font-size: 73px;
+  }
+  .book{
+    margin:  auto;
+    padding: 0
+  }
 }
