@@ -390,7 +390,7 @@ element.style {
 .section_2_text {
   padding-top: 470px;
   width: 305px;
-  padding-left: 283px;
+  padding-left: 645px;
   height: 80px;
   /* margin-left: 460; */
   font-family: 'Futura PT', 'Nunito', sans-serif;
@@ -406,7 +406,7 @@ element.style {
   color: #403A3E;
 
   position: relative;
-  left: 348px;
+ 
 
 }
 
@@ -751,9 +751,9 @@ element.style {
   position: relative;
   text-decoration: none;;
   top: -325px;
-  left: 1541px;
+  left: 1306px;
 
-  width: 200px;
+
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -1119,11 +1119,15 @@ left: 190px;
 
 }
 
+.swiper-slide .card{
+  display: none;
+
+}
 .section6_text2{
   position: relative;
   text-decoration: none;;
   top: -326px;
-  left: 1691px;
+  left: 1491px;
   width: 200px;
   font-family: 'Montserrat';
   font-style: normal;
@@ -1133,6 +1137,10 @@ left: 190px;
   text-align: center;
 
   color: #6A4D67;
+}
+
+[hidden] {
+  display: none !important;
 }
 
 .six a:hover{
@@ -1171,6 +1179,7 @@ left: 190px;
   font-weight: 450;
   font-size: 40px;
   line-height: 51px;
+  width: 200px;
 
 color: #403A3E;
 left: 600px;
@@ -1488,4 +1497,5 @@ input[type="checkbox" i]{
 
 .footer_context{
   margin: 0 auto;
+  overflow: hidden;
 }
