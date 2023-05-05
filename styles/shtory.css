@@ -1499,12 +1499,12 @@ input[type="checkbox" i]{
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 419px) {
   .header-nav{
-    width: 1500px;
+    max-width: 419px;
   }
   .header {
-    width: 414px;
+    width: 419px;
     
   }
   .header-nav-text-link{
@@ -1518,14 +1518,14 @@ input[type="checkbox" i]{
     display: none;
   }
   .logo-png{
-    width: 300px;
+    width: 100px;
     position: relative;
     left: 0;
   }
   .header-nav-cart-image{
-    width: 100px;
+    width: 50px;
     position: relative;
-    left: 971px;
+    left: 419px;
   }
   .header-nav>*{
     overflow: visible;
@@ -1539,21 +1539,12 @@ input[type="checkbox" i]{
     z-index: 1;
   }
 
-  .m{
-    top: -678px;
-    width: 1400px;
-    margin: 0 auto;
-    padding: 0;
-    height: 1262px;
-    position: relative;
-    border-radius: 0 0px 50px 50px;
-    left: -100px;
-  }
+
   
 
   .one{
-    width: 1800px;
-    height:2200px;
+    width: 419px;
+    height:500px;
   }
 
   .home-title{
