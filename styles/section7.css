@@ -1,0 +1,112 @@
+/*------------------------------------section7--------------------------------------------------*/
+.seven{
+    height:1157px;
+    min-width: 1700px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url('https://wladarius.github.io/vlada/images/tkanyna_3.svg');
+    background-position: left;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-y:top;
+  }
+  
+  
+  
+  .portfolio {
+    text-align: left;
+    padding: 32px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 40px;
+    line-height: 51px;
+    width: 200px;
+  
+  color: #403A3E;
+  left: 600px;
+  position: relative;
+  }
+  
+  .grid-container {
+    position: relative;
+  
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "post-1 post-1 post-3 post-4"  
+                         "post-1 post-1 post-3 post-4";
+                         
+    grid-template-rows: 380px 380px;
+    grid-template-columns: 560px 187px 187px 187px;
+    gap: 20px;
+  }
+  .post-1 {
+    grid-area: post-1;
+  }
+  .post-2 {           
+    grid-area: post-2;
+  
+  }
+  .post-3 {
+    grid-area: post-3;
+  
+  }
+  .post-4 {           
+    grid-area: post-4;
+  
+  }
+  .post-5 {
+    grid-area: post-5;
+  
+  }
+  .post-6 {           
+    grid-area: post-6;
+  }
+  
+  .n7{
+    grid-template-columns: 4;
+    position: relative;
+    left: 106px;
+    top: -115px;
+  }
+  
+  .n6{
+    position: relative;
+    top: -115px;
+    height: 181px;
+  }
+  
+  .n8{
+    position: relative;
+    bottom: -87px;
+    
+    height: 245px;
+  }
+  
+  .grid-container img{
+    border-radius: 20px;
+  }
+  
+  .n10{
+    position: relative;
+    left: 208px;
+    top: -315px;
+    
+    height: 245px;
+  }
+  
+  .n9{
+    position: relative;
+    left: 582px;
+    top: -314px;
+    
+    height: 245px;
+  }
+  
+  .grid-container img:hover{
+    opacity: .6;
+    transform: scale(1);
+  }
+  
