@@ -26,9 +26,9 @@ const resources = () => {
 
 
 const styles = () => {
-    return src('src/styles/**/*.css')
+    return src('styles/*.css')
         .pipe(sourcemaps.init())
-        .pipe(concat('main.css'))
+        .pipe(concat('shtory.css'))
         .pipe(autoprefixer({
             cascade: false,
         }))
@@ -42,7 +42,7 @@ const styles = () => {
 }
 
 const htmlMinify = () => {
-    return src('src/**/*.html')
+    return src('*.html')
         .pipe(htmlMin({
             collapseWhitespace: true,
         }))
@@ -51,7 +51,7 @@ const htmlMinify = () => {
 
 
 const svgSprites = () => {
-    return src('src/images/svg/**/*.svg')
+    return src('images/*.svg')
     .pipe (svgSprite({
       mode:{
         stack: {
@@ -95,10 +95,10 @@ const images = () => {
     return import('gulp-image')
     .then((gulpImage) => {
         return src([
-        'src/images/**/*jpg',
-        'src/images/**/*png',
-        'src/images/*.svg',
-        'src/images/**/*jpeg',
+        'images/**/*jpg',
+        'images/**/*png',
+        'images/*.svg',
+        'images/**/*jpeg',
     ])
     .pipe(gulpImage.default())
     .pipe(dest('dist/images'));
@@ -109,9 +109,9 @@ const images = () => {
 };
 
 
-watch('src/**/*.html', htmlMinify)
-watch('src/styles/**/*.css', styles)
-watch('src/images/svg/**/*.svg', svgSprites)
+watch('*.html', htmlMinify)
+watch('styles/*.css', styles)
+watch('images/*.svg', svgSprites)
 watch('src/js/**/*.js', scripts)
 watch('src/resources/**', resources)
 

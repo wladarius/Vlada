@@ -28,6 +28,7 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
     "gulp-concat": "^2.6.1",
+    "gulp-google-webfonts": "^4.1.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-image": "^6.3.1",
     "gulp-imagemin": "^7.0.0",
@@ -38,5 +39,8 @@
     "gulp-tinify": "^1.0.2",
     "gulp-uglify-es": "^3.0.0",
     "htmlmin": "^0.0.7"
+  },
+  "dependencies": {
+    "gulp-rename": "^2.0.0"
   }
 }
