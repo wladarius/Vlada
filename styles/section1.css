@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Bebas+Neue&family=Montserrat:wght@100;300;500;600;700&family=Roboto:wght@100&display=swap');
+@import "../dist/fonts/fonts.css";
 @import '../font/stylesheet.css';
 @import '../font2/stylesheet.css';
 

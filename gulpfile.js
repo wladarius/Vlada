@@ -10,6 +10,7 @@ const uglify = require('gulp-uglify-es').default
 const sourcemaps = require('gulp-sourcemaps')
 const del = require('del');
 
+
 const browserSync = require("browser-sync").create()
 
 
@@ -109,6 +110,24 @@ const images = () => {
 };
 
 
+const gulp = require('gulp');
+const googleWebFonts = require('gulp-google-webfonts');
+
+const options = {};
+
+function fonts() {
+  return gulp.src('FFONT/fonts.list')
+    .pipe(googleWebFonts(options))
+    .pipe(gulp.dest('dist/fonts'));
+}
+
+gulp.task('fonts', fonts);
+
+exports.default = gulp.series('fonts');
+
+
+
+
 watch('*.html', htmlMinify)
 watch('styles/*.css', styles)
 watch('images/*.svg', svgSprites)
@@ -120,4 +139,4 @@ watch('src/resources/**', resources)
 exports.styles = styles
 exports.scripts = scripts
 exports.htmlMinify = htmlMinify
-exports.default = series(clean, resources, htmlMinify, scripts, styles, svgSprites, images, watchfiles)
+exports.default = series(clean, resources, htmlMinify, scripts, styles, svgSprites, images, watchfiles, fonts)
