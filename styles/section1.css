@@ -1,0 +1,361 @@
+@import "../dist/fonts/fonts.css";
+@import '../font/stylesheet.css';
+@import '../font2/stylesheet.css';
+
+/* section1----------------------------------------------------------------------------------------------------------------*/
+.header-nav {
+  margin: 57px auto;
+  height: 57px;
+
+
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(11px);
+
+  align-items: center;
+  width: 1200px;
+  clear: both;
+}
+
+.header-nav::after {
+  clear: both;
+}
+
+header {
+  clear: both;
+  margin-top: -36px;
+  min-width: 1700px;
+  height: 132px;
+}
+
+
+header::after {
+  clear: both;
+}
+
+.header-nav>* {
+  float: left;
+  overflow: hidden;
+}
+
+.header-nav-logo-link {
+  width: 12%;
+  min-width: 110px;
+  padding-top: 3px;
+}
+
+.header-nav-text-link {
+  width: 56%;
+  min-width: 435px;
+  padding-top: 17px;
+}
+
+.header-nav-text-link>a {
+  font-family: Montserrat;
+  text-decoration: none;
+  color: #778CA3;
+  padding-left: 34px;
+  padding-right: 0px;
+}
+
+.header-nav-phone {
+  padding-left: 70px;
+  width: 14%;
+  padding-top: 16px;
+}
+
+.header-nav-social {
+  min-width: 90px;
+  width: 8%;
+  padding-top: 18px;
+}
+
+.header-nav-cart {
+  margin-left: -70px;
+  width: 10%;
+  padding-top: 15px;
+}
+
+.header-nav-cart-image {
+  float: right;
+}
+
+.phone-icon,
+.phone-number {
+  display: inline;
+}
+
+.phone-number {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+
+  text-decoration: none;
+  color: #778CA3;
+}
+
+.social-icon {
+  padding-right: 10px;
+  gap: 5px;
+}
+
+.one {
+  height: 845px;
+  margin-top: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 825px;
+}
+
+.icon_png {
+  margin-left: 18px;
+}
+
+
+
+nav a:hover {
+  font-family: montserrat;
+  color: #6a4d67;
+
+}
+
+.phone_n {
+  position: absolute;
+  padding-left: 0;
+  right: 24.1%;
+  top: 32.08%;
+  bottom: 33.96%;
+
+}
+
+
+
+.icon_n {
+  padding-left: 275px;
+  padding-right: 0px;
+  gap: 0;
+}
+
+
+
+#background {
+  color: #FFFF;
+}
+
+.home-title {
+
+  font-family: Futura PT, 'Nunito', sans-serif;
+  color: #403A3E;
+  /* margin-top: 250px; */
+  font-size: 87px;
+  line-height: 112.82px;
+  font-weight: 300;
+
+  position: relative;
+  top: 17px;
+
+  text-transform: uppercase;
+  font-style: normal;
+
+  width: 478px;
+  height: 226px;
+}
+
+#hero-msg h1 {}
+
+#hero-msg h4 {
+
+  /* margin-left: 670px; */
+  /* margin-top: 255px; */
+
+}
+
+#hero-msg h4 {
+
+  position: relative;
+  top: -38px;
+
+}
+
+main {
+  margin: 0 auto;
+
+}
+
+/*.button-box {
+  margin-left: 400px; 
+} */
+
+#hero-msg {
+  min-width: 76%;
+  height: 767px;
+  display: inline-block;
+  gap: 4%;
+}
+
+#hero-msg h4 {
+  font-family: montserrat;
+  color: #778CA3;
+
+  width: 477px;
+  height: 85px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.button-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  
+  position: relative;
+  top: -30px;
+
+
+  width: 180px;
+  height: 50px;
+
+  background: #6A4D67;
+  border-radius: 50px;
+  text-align: center;
+  /* margin-left: 670px; */
+  /* margin-top: -35px; */
+
+} 
+
+.book {
+  padding-left: 60px;
+  margin-top: 15px;
+  color: #FFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  text-decoration: none;
+
+}
+
+.button-box:hover {
+  box-shadow: 0 0 10px rgba(147, 100, 142, 0.58);
+  border-radius: 50px;
+
+} 
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  width: 941px;
+  height: 787px;
+  left: 66.5%;
+  top: -76%;
+  /* margin-left: 1280px; */
+  /* margin-top: -580px; */
+  border-radius: 20px 0px 0px 20px;
+
+} 
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  /* margin-top: -22px; */
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0px;
+  border-radius: 3px 0 0 3px;
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-top: 28px;
+
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.m {
+  width: 941px;
+  height: 787px;
+  border-radius: 20px 0 0 20px;
+}
+
+element.style {
+  padding-left: 1000px;
+}
+
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}

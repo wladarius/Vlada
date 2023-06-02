@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 100;
+	font-display: auto;
+	font-stretch: normal;
+	src: url(Montserrat-normal-100.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	font-stretch: normal;
+	src: url(Montserrat-normal-300.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	font-stretch: normal;
+	src: url(Montserrat-normal-500.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	font-stretch: normal;
+	src: url(Montserrat-normal-600.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	font-stretch: normal;
+	src: url(Montserrat-normal-700.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 200;
+	font-display: auto;
+	font-stretch: normal;
+	src: url(Nunito-normal-200.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 100;
+	font-display: auto;
+	font-stretch: normal;
+	src: url(Roboto-normal-100.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+

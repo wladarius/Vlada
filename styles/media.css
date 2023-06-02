@@ -1,0 +1,80 @@
+@media (max-width: 419px) {
+    .header-nav{
+      max-width: 419px;
+    }
+    .header {
+      width: 419px;
+      
+    }
+    .header-nav-text-link{
+      display: none;
+    }
+    .header-nav-phone{
+      display:none
+  
+    }
+    .header-nav-social{
+      display: none;
+    }
+    .logo-png{
+      width: 100px;
+      position: relative;
+      left: 0;
+    }
+    .header-nav-cart-image{
+      width: 50px;
+      position: relative;
+      left: 419px;
+    }
+    .header-nav>*{
+      overflow: visible;
+    }
+    .slideshow-container{
+      position: relative;
+      top: 50px;
+      left: 10px;
+      margin: 0 auto;
+  
+      z-index: 1;
+    }
+  
+  
+    
+  
+    .one{
+      width: 419px;
+      height:500px;
+    }
+  
+    .home-title{
+      position: relative;
+      left: 156px;
+      top: 1300px;
+      width: 1218px;
+      font-size: 119px;
+      font-weight: 400;
+    }
+    #hero-msg h4{
+      position: relative;
+      top: 1159px;
+      font-size: 40px;
+      width: 1139px;
+      line-height: 1;
+      position: relative;
+      left: 196px;
+    }
+    .button-box{
+      position: relative;
+      position: relative;
+      top: 1300px;
+      left: 149px;
+      width: 1200px;
+      height: 141px;
+      border-radius: 100px;
+      font-size: 73px;
+    }
+    .book{
+      margin:  auto;
+      padding: 0
+    }
+  }
