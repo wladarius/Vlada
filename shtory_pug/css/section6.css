@@ -1,0 +1,59 @@
+.six {
+  margin: 0 auto;
+  position: relative;
+  min-width: 1700px;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: #F8F9FB;
+  background-image: url("https://wladarius.github.io/vlada/images/tkanyna_2.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.section6_text1 {
+  position: relative;
+  top: -253px;
+  left: 644px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 40px;
+  line-height: 51px;
+  color: #403A3E;
+}
+
+.swiper-slide .card {
+  display: none;
+}
+
+.section6_text2 {
+  position: relative;
+  text-decoration: none;
+  top: -326px;
+  left: 1673px;
+  width: 200px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #6A4D67;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.six a:hover {
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-shadow: #6A4D67 1px 0px 20px;
+}/*# sourceMappingURL=section6.css.map */

@@ -1,0 +1,200 @@
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #F8F9FB;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-radius: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  height: 75px;
+  position: relative;
+  top: -146px;
+  left: -5px;
+  color: #A4B0BE;
+}
+
+input[type=submit] {
+  background-color: #6A4D67;
+  width: 179px;
+  height: 50px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  position: relative;
+  top: -74px;
+  left: -30px;
+}
+
+input[type=submit]:hover {
+  background: #6A4D67;
+  box-shadow: 0px 0px 10px rgba(147, 100, 142, 0.58);
+  border-radius: 50px;
+}
+
+.contact_form {
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #F8F9FB;
+  max-width: 477px;
+  border: none;
+  height: 595px;
+  position: relative;
+  left: -405px;
+  top: 200px;
+}
+
+.eight {
+  min-width: 1700px;
+  height: 919px;
+  background-color: #F8F9FB;
+}
+
+form {
+  top: -843px;
+  position: relative;
+}
+
+.fform_image {
+  position: relative;
+  left: 629px;
+  top: -342px;
+  height: 919px;
+  min-width: 500px;
+  max-width: 919px;
+  grid-template-columns: 2;
+}
+
+.section8_text1 {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 40px;
+  line-height: 51px;
+  color: #403A3E;
+  width: 500px;
+  position: relative;
+  top: -92px;
+}
+
+.section8_text2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #778CA3;
+  width: 500px;
+  position: relative;
+  top: -95px;
+}
+
+footer {
+  height: 106px;
+  min-width: 1700px;
+  background-color: #fff;
+}
+
+.footer_context {
+  margin: 0 auto;
+  height: 500px;
+}
+
+footer a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4B6584;
+}
+
+footer p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4B6584;
+}
+
+.link_1 {
+  position: relative;
+  left: 855px;
+  top: 159px;
+  line-height: 45px;
+}
+
+.logo_f {
+  position: relative;
+  left: 649px;
+  top: 217px;
+}
+
+.link_2 {
+  position: relative;
+  left: 1074px;
+  top: -27px;
+  line-height: 45px;
+}
+
+.link_3 {
+  position: relative;
+  left: 1333px;
+  top: -189px;
+}
+
+.link_4 {
+  position: relative;
+  left: 1681px;
+  top: -309px;
+  width: 300px;
+}
+
+.icons_f {
+  margin-right: 20px;
+  left: 1680px;
+  position: relative;
+}
+
+footer a:hover {
+  text-shadow: #6A4D67 1px 0px 20px;
+}
+
+.checkbox_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  position: relative;
+  top: -102px;
+  left: 39px;
+  color: #403A3E;
+}
+
+input[type=checkbox i] {
+  top: -149px;
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.footer_context {
+  margin: 0 auto;
+  overflow: hidden;
+}/*# sourceMappingURL=section8.css.map */
